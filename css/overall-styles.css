@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ArialRoundedMTBold';
+    src: url('../fonts/Arial Rounded Bold.ttf') format('truetype');
+    font-style: bold;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #DEFFAB;
+}
+
+main {
+    margin: 0 1rem;
+    border: red solid 1px;
+}
+
+h1, h2, h3 {
+    font-family: 'ArialRoundedMTBold', Arial, sans-serif;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #b70000;
+    }
+
+    /* Width of the scrollbar */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track background (lighter to match the dark gradient background) */
+    &::-webkit-scrollbar-track {
+        background: #0f284f;
+        border-radius: 0 4px 4px 0;
+    }
+
+    /* Drag-handle (darker for contrast) */
+    &::-webkit-scrollbar-thumb {
+        background: #00428d;
+        border-radius: 4px;
+    }
+
+    /* Handle on hover (slightly lighter for visibility) */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #1A4475;
+    }
+
+    /* Handle when actively being dragged */
+    &::-webkit-scrollbar-thumb:active {
+        background: #205490;
+    }
+}
