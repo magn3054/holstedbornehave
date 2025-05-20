@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ArialRoundedMTBold';
-    src: url('../fonts/Arial Rounded Bold.ttf') format('truetype');
+    src: url('../fonts/arial-rounded-bold.ttf') format('truetype');
     font-style: bold;
 }
 
@@ -121,7 +121,7 @@ form input:focus {
 
 .toast {
     position: fixed;
-    bottom: 10rem;
+    bottom: 1rem;
     right: -100%;
     background: #ffff33;
     padding: 0.5rem 1.25rem;
