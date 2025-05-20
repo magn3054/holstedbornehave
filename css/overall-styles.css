@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'ArialRoundedMTBold';
     src: url('../fonts/arial-rounded-bold.ttf') format('truetype');
-    font-style: bold;
 }
 
 * {
@@ -150,29 +149,29 @@ form input:focus {
     }
 
     /* Width of the scrollbar */
-    &::-webkit-scrollbar {
+    body::-webkit-scrollbar {
         width: 8px;
     }
 
     /* Track background (lighter to match the dark gradient background) */
-    &::-webkit-scrollbar-track {
+    body::-webkit-scrollbar-track {
         background: #0f284f;
         border-radius: 0 4px 4px 0;
     }
 
     /* Drag-handle (darker for contrast) */
-    &::-webkit-scrollbar-thumb {
+    body::-webkit-scrollbar-thumb {
         background: #00428d;
         border-radius: 4px;
     }
 
     /* Handle on hover (slightly lighter for visibility) */
-    &::-webkit-scrollbar-thumb:hover {
+    body::-webkit-scrollbar-thumb:hover {
         background: #1A4475;
     }
 
     /* Handle when actively being dragged */
-    &::-webkit-scrollbar-thumb:active {
+    body::-webkit-scrollbar-thumb:active {
         background: #205490;
     }
 }
