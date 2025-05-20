@@ -3,7 +3,7 @@
 function showToast() {
     const toast = document.createElement('div');
     toast.className = 'toast';
-    toast.textContent = "Form submitted!";
+    toast.innerHTML = "Tak for din tilmelding!<br> Vi kontakter dig hurtigst muligt.";
     toast.style.transition = 'right 0.5s';
 
     document.body.appendChild(toast);
