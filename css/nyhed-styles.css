@@ -1,0 +1,46 @@
+#galleri {
+    margin-bottom: 0rem;
+}
+
+.knapper {
+    margin-top: 0.75rem;
+}
+
+#nyheder{
+    margin-top: 3rem;
+}
+
+#nyheder .nyhed:first-of-type {
+    margin-top: 1rem;
+}
+
+#nyheder h3 {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#nyheder .dato {
+    font-size: 1rem;
+    color: #99cc66;
+    font-weight: bold;
+}
+
+#nyheder .tekst {
+    font-size: 1.1rem;
+}
+
+#nyheder .mere-knap {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.mere-knap button {
+    font-size: 1rem;
+    padding: 0.25rem;
+}
+
+section.nyhed:nth-child(even) button {
+    background-color: #ffff33;
+}

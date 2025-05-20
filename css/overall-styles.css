@@ -11,7 +11,8 @@
     font-family: Arial, sans-serif;
 }
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     height: 100%;
@@ -20,17 +21,127 @@ html, body {
 
 main {
     margin: 0 1rem;
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
-h1, h2, h3 {
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
     font-family: 'ArialRoundedMTBold', Arial, sans-serif;
 }
 
-section {
-    margin: 20px 0;
-    padding: 20px 0;
-    border-radius: 8px;
+main section {
+    margin: 2rem 0;
+}
+
+#title-tekst {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    margin: 0.25rem 0;
+}
+
+.knapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: #99cc66;
+    border: black solid 3px;
+    padding: .75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: clamp(1rem, 5vw, 2rem);
+}
+
+button:nth-of-type(even) {
+    background-color: #ffff33;
+}
+
+#galleri {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#galleri img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin: 0;
+}
+
+
+
+form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    margin-bottom: 3rem;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+form input {
+    background-color: #ffff66;
+    border: none;
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid transparent;
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid #99cc66;
+}
+
+.toast {
+    position: fixed;
+    bottom: 10rem;
+    right: -100%;
+    background: #ffff33;
+    padding: 0.5rem 1.25rem;
+    margin: 1rem;
+    height: fit-content;
+    width: max-content;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-size: 1.25rem;
+    z-index: 2;
+    opacity: 0.95;
+    text-align: center;
+    /* white-space: nowrap; */
+    pointer-events: none;
+    transition: right 0.5s;
+}
+
+@keyframes toast-fadein {
+    from { opacity: 0; transform: translateX(-50%) translateY(30px);}
+    to { opacity: 0.95; transform: translateX(-50%) translateY(0);}
 }
 
 @media only screen and (min-width: 768px) {

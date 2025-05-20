@@ -1,0 +1,7 @@
+h2 {
+    text-transform: uppercase;    
+}
+
+p:has(+.knapper) {
+    margin: 0 0 0.75rem 0;
+}

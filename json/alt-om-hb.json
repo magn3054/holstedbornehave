@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Værdier og pædagogik",
+        "img": ".//img/content/value.webp",
+        "body": "I Holsted Børnehave arbejder vi ud fra værdier som tryghed, fællesskab og nærvær. Vi tror på, at børn lærer bedst gennem leg, og vi bruger naturen aktivt i vores hverdag. Her skal alle børn føle sig set, hørt og en del af fællesskabet.",
+        "buttons": []
+    },
+    {
+        "title": "spisning",
+        "img": ".//img/content/spisning.webp",
+        "body": "I Holsted Børnehave arbejder vi ud fra værdier som tryghed, fællesskab og nærvær. Vi tror på, at børn lærer bedst gennem leg, og vi bruger naturen aktivt i vores hverdag. Her skal alle børn føle sig set, hørt og en del af fællesskabet.",
+        "buttons": []
+    },
+    {
+        "title": "stuerne",
+        "img": ".//img/content/stuerne.webp",
+        "body": "Vi har tre stuer i Holsted Børnehave: Spilopperne, Troldungerne og Solstrålerne. Hver stue har faste voksne og aldersopdelte grupper, der sikrer tryghed og nærhed i hverdagen. Her kender vi hinanden og alle bliver en del af legen.",
+        "buttons": ["Spilopper", "Solstråler", "Troldunger"]
+    }
+]
