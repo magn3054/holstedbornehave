@@ -143,35 +143,3 @@ form input:focus {
     to { opacity: 0.95; transform: translateX(-50%) translateY(0);}
 }
 
-@media only screen and (min-width: 768px) {
-    body {
-        background-color: #b70000;
-    }
-
-    /* Width of the scrollbar */
-    body::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    /* Track background (lighter to match the dark gradient background) */
-    body::-webkit-scrollbar-track {
-        background: #0f284f;
-        border-radius: 0 4px 4px 0;
-    }
-
-    /* Drag-handle (darker for contrast) */
-    body::-webkit-scrollbar-thumb {
-        background: #00428d;
-        border-radius: 4px;
-    }
-
-    /* Handle on hover (slightly lighter for visibility) */
-    body::-webkit-scrollbar-thumb:hover {
-        background: #1A4475;
-    }
-
-    /* Handle when actively being dragged */
-    body::-webkit-scrollbar-thumb:active {
-        background: #205490;
-    }
-}
